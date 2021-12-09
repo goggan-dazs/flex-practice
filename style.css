@@ -1,0 +1,59 @@
+ /* 3 columns*/
+.big-container {
+    background-color: teal;
+}
+
+.container {
+    display: flex;
+
+}
+
+.container > div {
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 1.5rem;
+    padding: 1rem;
+    width: 30%;
+    justify-content: space-around;
+    background-color: white;
+}
+
+
+/*nav-bar*/
+
+.nav-bar {
+    display: flex;
+    background-color: lightblue;
+    justify-content: space-between;
+    border: 2px solid white;
+}
+
+.nav-bar ul li {
+    list-style-type: none;
+    margin: 3px;
+}
+
+.nav-bar > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+/*center*/
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+
+
+
